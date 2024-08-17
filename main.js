@@ -4,14 +4,12 @@ function password() {
     if (user_password == false || user_password == null) {
         alert("パスワードが入力されてません");
         password();
-    } 
-
-    if(user_password != _password) {
+    } else if(user_password != _password) {
         alert("パスワードが間違ってます");
         password();
+    } else {
+        alert("パスワードが合ってます");
     }
-
-    alert("パスワードが合ってます");
 }
 
 window.onload=password();
