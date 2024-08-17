@@ -1,5 +1,5 @@
 function password() {
-    const _password = "a";
+    const _password = "Asa-kawa";
     const user_password = prompt("パスワードを入力してください");
     if (user_password == false || user_password == null) {
         alert("パスワードが入力されてません");
