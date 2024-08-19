@@ -12,4 +12,4 @@ function password() {
     }
 }
 
-//window.onload=password();
+window.onload=password();
